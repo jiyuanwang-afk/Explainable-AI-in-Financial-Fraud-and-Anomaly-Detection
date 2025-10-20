@@ -1,0 +1,19 @@
+{
+  "seed": 7,
+  "use_gnn": true,
+  "train_epochs": 30,
+  "lr": 0.001,
+  "hidden_size": 32,
+  "batch_size": 1,
+  "ae_hidden": 8,
+  "threshold_strategy": "f1_max",
+  "explainability": {
+    "compute_shap": true,
+    "compute_gnn_explanations": true,
+    "num_background": 128
+  },
+  "paths": {
+    "data_csv": "data/transactions.csv",
+    "results_dir": "results"
+  }
+}
